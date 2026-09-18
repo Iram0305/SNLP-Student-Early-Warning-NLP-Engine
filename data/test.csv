@@ -1,0 +1,36 @@
+id,text,category,urgency,recommended_action
+MSG0064,I can't afford the lab equipment required for Data Structures and my deadline to submit is this week.,Financial difficulty,High,Financial aid office referral
+MSG0045,I had a small doubt about the grading rubric used for the Data Science project.,Academic difficulty,Low,Academic advisor follow-up
+MSG0128,I feel anxious before every Computer Networks exam and it's starting to affect my performance.,Personal/Mental health,Medium,Counselling services referral
+MSG0175,I'm being bullied by classmates in my Operating Systems group and it has gotten worse over the past week.,Harassment/Safety,High,Escalate to student safety/conduct office
+MSG0205,A few students in Statistics have been making uncomfortable comments about me in the group chat.,Harassment/Safety,Medium,Escalate to student safety/conduct office
+MSG0055,My family's financial situation has worsened and I may have to drop out due to unpaid fees.,Financial difficulty,High,Financial aid office referral
+MSG0034,I'm having trouble balancing coursework across Database Systems and my other subjects this semester.,Academic difficulty,Medium,Academic advisor follow-up
+MSG0013,I have fallen so far behind in Data Science that I don't think I can catch up before the exam.,Academic difficulty,High,Academic advisor follow-up
+MSG0075,"Managing both hostel and Linear Algebra material costs this month has been tight, are there any aid options?",Financial difficulty,Medium,Financial aid office referral
+MSG0147,I need to request a leave of absence for Computer Networks due to a family function next week.,Administrative,Medium,Route to administrative office
+MSG0117,I feel completely burnt out and don't know how much longer I can keep pushing through Software Engineering.,Personal/Mental health,High,Counselling services referral
+MSG0207,A group project teammate has been dismissive and disrespectful toward me throughout Database Systems.,Harassment/Safety,Medium,Escalate to student safety/conduct office
+MSG0107,I've been isolating myself from everyone and I don't see the point in continuing like this.,Personal/Mental health,High,Counselling services referral
+MSG0073,Could you tell me if there are any scholarship or financial aid options available for students like me?,Financial difficulty,Medium,Financial aid office referral
+MSG0135,I've been feeling quite disconnected from my classmates and struggling to keep up with Data Structures.,Personal/Mental health,Medium,Counselling services referral
+MSG0162,Can you share the academic calendar for this semester?,Administrative,Low,Route to administrative office
+MSG0001,I have fallen so far behind in Natural Language Processing that I don't think I can catch up before the exam.,Academic difficulty,High,Academic advisor follow-up
+MSG0225,"Thank you for the extra reading material shared after the Operating Systems lecture, it was really helpful.",No_Concern,No_Concern,No action required
+MSG0078,"Managing both hostel and Computer Networks material costs this month has been tight, are there any aid options?",Financial difficulty,Medium,Financial aid office referral
+MSG0027,I did poorly on my last assignment in Operating Systems and I'm not sure how to improve.,Academic difficulty,Medium,Academic advisor follow-up
+MSG0201,A few students in Machine Learning have been making uncomfortable comments about me in the group chat.,Harassment/Safety,Medium,Escalate to student safety/conduct office
+MSG0103,Is there a fee breakdown available for Statistics materials and lab charges?,Financial difficulty,Low,Financial aid office referral
+MSG0071,I'm at risk of being deregistered from Computer Networks because of overdue fee payments and I need urgent help.,Financial difficulty,High,Financial aid office referral
+MSG0174,I wanted to know the process for adding a minor elective alongside Software Engineering.,Administrative,Low,Route to administrative office
+MSG0140,Are there any mindfulness or stress-management workshops planned this semester?,Personal/Mental health,Low,Counselling services referral
+MSG0012,I don't understand anything that has been taught in Natural Language Processing this semester and the mid-terms are next week.,Academic difficulty,High,Academic advisor follow-up
+MSG0171,I wanted to know the process for adding a minor elective alongside Database Systems.,Administrative,Low,Route to administrative office
+MSG0136,I feel anxious before every Linear Algebra exam and it's starting to affect my performance.,Personal/Mental health,Medium,Counselling services referral
+MSG0182,I'm being bullied by classmates in my Software Engineering group and it has gotten worse over the past week.,Harassment/Safety,High,Escalate to student safety/conduct office
+MSG0149,My transcript has an error in my Operating Systems grade and I need it corrected before applications close.,Administrative,Medium,Route to administrative office
+MSG0031,I missed a couple of lectures in Machine Learning and I'm finding it hard to catch up on my own.,Academic difficulty,Medium,Academic advisor follow-up
+MSG0179,Explicit messages are being circulated about me in a Statistics class group and I need this addressed urgently.,Harassment/Safety,High,Escalate to student safety/conduct office
+MSG0010,I don't understand anything that has been taught in Data Structures this semester and the mid-terms are next week.,Academic difficulty,High,Academic advisor follow-up
+MSG0065,I lost my scholarship and I don't know how I'll continue paying for Database Systems materials and tuition.,Financial difficulty,High,Financial aid office referral
+MSG0221,Is there a recording available for the Machine Learning session I missed due to a clash?,No_Concern,No_Concern,No action required
