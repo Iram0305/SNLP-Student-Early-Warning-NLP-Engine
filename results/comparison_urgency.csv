@@ -1,0 +1,8 @@
+,baseline_f1,improved_f1,f1_change
+High,0.9231,0.88,-0.0431
+Low,0.6667,0.9091,0.2424
+Medium,0.9286,0.8966,-0.032
+No_Concern,0.5,0.8,0.3
+accuracy,0.8571,0.8857,0.0286
+macro avg,0.7546,0.8714,0.1168
+weighted avg,0.8571,0.887,0.0299
