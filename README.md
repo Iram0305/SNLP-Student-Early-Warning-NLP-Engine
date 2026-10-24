@@ -15,6 +15,13 @@ An NLP component that identifies potentially important student-support signals
 from free-text student communications, and outputs a triage recommendation for
 academic advisors — **advisory only, never a high-stakes automated decision.**
 
+## Live Demo
+
+Try the hosted app here: [Student Early-Warning Engine](https://student-early-warning-engine.streamlit.app/)
+
+Paste a student message to see its category, urgency, confidence scores and a recommended next step. The app also has a batch dashboard for analysing many messages at once. If the app has been idle, it may take about a minute to wake up.
+
+
 ---
 
 ## Problem
