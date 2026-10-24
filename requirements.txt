@@ -1,7 +1,10 @@
-pandas>=2.0
-scikit-learn>=1.3
-joblib>=1.3
+--extra-index-url https://download.pytorch.org/whl/cpu
+
+torch
+streamlit>=1.28
 sentence-transformers>=2.2
+scikit-learn>=1.3
+pandas>=2.0
+joblib>=1.3
 fastapi>=0.100
 uvicorn>=0.23
-streamlit>=1.28
