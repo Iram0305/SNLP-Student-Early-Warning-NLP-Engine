@@ -1,0 +1,331 @@
+{
+  "from": "Group 6, Student Early-Warning NLP Engine",
+  "model_version": "mpnet-week4",
+  "advisory_only": true,
+  "categories": [
+    "Academic difficulty",
+    "Financial difficulty",
+    "Personal/Mental health",
+    "Harassment/Safety",
+    "Administrative",
+    "No_Concern"
+  ],
+  "urgency_levels": [
+    "High",
+    "Medium",
+    "Low",
+    "No_Concern"
+  ],
+  "confidence_range": "0.0 to 1.0 = probability the model gives its chosen label; below 0.5 means low confidence",
+  "summary": {
+    "total": 38,
+    "support_signals": 32,
+    "high_urgency": 5
+  },
+  "results": [
+    {
+      "id": "FB001",
+      "category": "Academic difficulty",
+      "category_confidence": 0.78,
+      "urgency": "Low",
+      "urgency_confidence": 0.45,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB002",
+      "category": "Academic difficulty",
+      "category_confidence": 0.6,
+      "urgency": "Low",
+      "urgency_confidence": 0.41,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB003",
+      "category": "Administrative",
+      "category_confidence": 0.32,
+      "urgency": "Medium",
+      "urgency_confidence": 0.63,
+      "recommended_action": "Route to administrative office"
+    },
+    {
+      "id": "FB004",
+      "category": "Academic difficulty",
+      "category_confidence": 0.8,
+      "urgency": "Low",
+      "urgency_confidence": 0.76,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB005",
+      "category": "Academic difficulty",
+      "category_confidence": 0.74,
+      "urgency": "Low",
+      "urgency_confidence": 0.66,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB006",
+      "category": "Academic difficulty",
+      "category_confidence": 0.7,
+      "urgency": "Low",
+      "urgency_confidence": 0.4,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB007",
+      "category": "Academic difficulty",
+      "category_confidence": 0.43,
+      "urgency": "Low",
+      "urgency_confidence": 0.72,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB008",
+      "category": "Academic difficulty",
+      "category_confidence": 0.74,
+      "urgency": "Low",
+      "urgency_confidence": 0.7,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB009",
+      "category": "Academic difficulty",
+      "category_confidence": 0.81,
+      "urgency": "Low",
+      "urgency_confidence": 0.79,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB010",
+      "category": "Academic difficulty",
+      "category_confidence": 0.69,
+      "urgency": "Low",
+      "urgency_confidence": 0.61,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB011",
+      "category": "Academic difficulty",
+      "category_confidence": 0.65,
+      "urgency": "Low",
+      "urgency_confidence": 0.5,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB012",
+      "category": "No_Concern",
+      "category_confidence": 0.35,
+      "urgency": "No_Concern",
+      "urgency_confidence": 0.42,
+      "recommended_action": "No action required"
+    },
+    {
+      "id": "FB013",
+      "category": "Academic difficulty",
+      "category_confidence": 0.74,
+      "urgency": "Low",
+      "urgency_confidence": 0.55,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB014",
+      "category": "Academic difficulty",
+      "category_confidence": 0.94,
+      "urgency": "Medium",
+      "urgency_confidence": 0.51,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB015",
+      "category": "Academic difficulty",
+      "category_confidence": 0.72,
+      "urgency": "Medium",
+      "urgency_confidence": 0.75,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB016",
+      "category": "Academic difficulty",
+      "category_confidence": 0.91,
+      "urgency": "Low",
+      "urgency_confidence": 0.63,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB017",
+      "category": "Academic difficulty",
+      "category_confidence": 0.77,
+      "urgency": "Low",
+      "urgency_confidence": 0.59,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB018",
+      "category": "Academic difficulty",
+      "category_confidence": 0.94,
+      "urgency": "Low",
+      "urgency_confidence": 0.58,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB019",
+      "category": "Personal/Mental health",
+      "category_confidence": 0.53,
+      "urgency": "Medium",
+      "urgency_confidence": 0.8,
+      "recommended_action": "Counselling services referral"
+    },
+    {
+      "id": "FB020",
+      "category": "Academic difficulty",
+      "category_confidence": 0.88,
+      "urgency": "Low",
+      "urgency_confidence": 0.53,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB021",
+      "category": "Academic difficulty",
+      "category_confidence": 0.81,
+      "urgency": "Low",
+      "urgency_confidence": 0.5,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB022",
+      "category": "No_Concern",
+      "category_confidence": 0.4,
+      "urgency": "Low",
+      "urgency_confidence": 0.52,
+      "recommended_action": "No action required"
+    },
+    {
+      "id": "FB023",
+      "category": "Academic difficulty",
+      "category_confidence": 0.84,
+      "urgency": "Low",
+      "urgency_confidence": 0.62,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB024",
+      "category": "Academic difficulty",
+      "category_confidence": 0.9,
+      "urgency": "Low",
+      "urgency_confidence": 0.55,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB025",
+      "category": "Academic difficulty",
+      "category_confidence": 0.73,
+      "urgency": "Low",
+      "urgency_confidence": 0.71,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB026",
+      "category": "Academic difficulty",
+      "category_confidence": 0.72,
+      "urgency": "High",
+      "urgency_confidence": 0.38,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB027",
+      "category": "Academic difficulty",
+      "category_confidence": 0.83,
+      "urgency": "High",
+      "urgency_confidence": 0.48,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB028",
+      "category": "Academic difficulty",
+      "category_confidence": 0.57,
+      "urgency": "Low",
+      "urgency_confidence": 0.74,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB029",
+      "category": "No_Concern",
+      "category_confidence": 0.43,
+      "urgency": "Low",
+      "urgency_confidence": 0.73,
+      "recommended_action": "No action required"
+    },
+    {
+      "id": "FB030",
+      "category": "Academic difficulty",
+      "category_confidence": 0.72,
+      "urgency": "Low",
+      "urgency_confidence": 0.59,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB031",
+      "category": "Personal/Mental health",
+      "category_confidence": 0.69,
+      "urgency": "High",
+      "urgency_confidence": 0.97,
+      "recommended_action": "Counselling services referral"
+    },
+    {
+      "id": "FB032",
+      "category": "Academic difficulty",
+      "category_confidence": 0.75,
+      "urgency": "High",
+      "urgency_confidence": 0.76,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB033",
+      "category": "Academic difficulty",
+      "category_confidence": 0.41,
+      "urgency": "Medium",
+      "urgency_confidence": 0.49,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB034",
+      "category": "Personal/Mental health",
+      "category_confidence": 0.7,
+      "urgency": "Medium",
+      "urgency_confidence": 0.67,
+      "recommended_action": "Counselling services referral"
+    },
+    {
+      "id": "FB035",
+      "category": "Harassment/Safety",
+      "category_confidence": 0.94,
+      "urgency": "Medium",
+      "urgency_confidence": 0.97,
+      "recommended_action": "Escalate to student safety/conduct office"
+    },
+    {
+      "id": "FB036",
+      "category": "Financial difficulty",
+      "category_confidence": 0.85,
+      "urgency": "High",
+      "urgency_confidence": 0.67,
+      "recommended_action": "Financial aid office referral"
+    },
+    {
+      "id": "FB037",
+      "category": "Academic difficulty",
+      "category_confidence": 0.84,
+      "urgency": "Medium",
+      "urgency_confidence": 0.53,
+      "recommended_action": "Academic advisor follow-up"
+    },
+    {
+      "id": "FB038",
+      "category": "Academic difficulty",
+      "category_confidence": 0.59,
+      "urgency": "Low",
+      "urgency_confidence": 0.61,
+      "recommended_action": "Academic advisor follow-up"
+    }
+  ]
+}
