@@ -1,7 +1,5 @@
 id,text,category,urgency,recommended_action,predicted,confidence,correct
-MSG0010,I don't understand anything that has been taught in Data Structures this semester and the mid-terms are next week.,Academic difficulty,High,Academic advisor follow-up,Medium,0.759,False
-MSG0140,Are there any mindfulness or stress-management workshops planned this semester?,Personal/Mental health,Low,Counselling services referral,No_Concern,0.554,False
-MSG0073,Could you tell me if there are any scholarship or financial aid options available for students like me?,Financial difficulty,Medium,Financial aid office referral,High,0.498,False
-MSG0012,I don't understand anything that has been taught in Natural Language Processing this semester and the mid-terms are next week.,Academic difficulty,High,Academic advisor follow-up,Medium,0.484,False
-MSG0162,Can you share the academic calendar for this semester?,Administrative,Low,Route to administrative office,No_Concern,0.469,False
-MSG0221,Is there a recording available for the Machine Learning session I missed due to a clash?,No_Concern,No_Concern,No action required,Low,0.388,False
+MSG0140,Are there any mindfulness or stress-management workshops planned this semester?,Personal/Mental health,Low,Counselling services referral,No_Concern,0.688,False
+MSG0010,I don't understand anything that has been taught in Data Structures this semester and the mid-terms are next week.,Academic difficulty,High,Academic advisor follow-up,Medium,0.683,False
+MSG0162,Can you share the academic calendar for this semester?,Administrative,Low,Route to administrative office,No_Concern,0.583,False
+MSG0073,Could you tell me if there are any scholarship or financial aid options available for students like me?,Financial difficulty,Medium,Financial aid office referral,High,0.441,False

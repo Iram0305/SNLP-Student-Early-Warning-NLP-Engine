@@ -1,36 +1,42 @@
 id,text,category,urgency,recommended_action,predicted,confidence,correct
-MSG0064,I can't afford the lab equipment required for Data Structures and my deadline to submit is this week.,Financial difficulty,High,Financial aid office referral,Financial difficulty,0.745,True
-MSG0045,I had a small doubt about the grading rubric used for the Data Science project.,Academic difficulty,Low,Academic advisor follow-up,Academic difficulty,0.911,True
-MSG0128,I feel anxious before every Computer Networks exam and it's starting to affect my performance.,Personal/Mental health,Medium,Counselling services referral,Personal/Mental health,0.818,True
-MSG0175,I'm being bullied by classmates in my Operating Systems group and it has gotten worse over the past week.,Harassment/Safety,High,Escalate to student safety/conduct office,Harassment/Safety,0.905,True
-MSG0205,A few students in Statistics have been making uncomfortable comments about me in the group chat.,Harassment/Safety,Medium,Escalate to student safety/conduct office,Harassment/Safety,0.91,True
-MSG0055,My family's financial situation has worsened and I may have to drop out due to unpaid fees.,Financial difficulty,High,Financial aid office referral,Financial difficulty,0.741,True
-MSG0034,I'm having trouble balancing coursework across Database Systems and my other subjects this semester.,Academic difficulty,Medium,Academic advisor follow-up,Academic difficulty,0.851,True
-MSG0013,I have fallen so far behind in Data Science that I don't think I can catch up before the exam.,Academic difficulty,High,Academic advisor follow-up,Academic difficulty,0.937,True
-MSG0075,"Managing both hostel and Linear Algebra material costs this month has been tight, are there any aid options?",Financial difficulty,Medium,Financial aid office referral,Financial difficulty,0.939,True
-MSG0147,I need to request a leave of absence for Computer Networks due to a family function next week.,Administrative,Medium,Route to administrative office,Administrative,0.897,True
-MSG0117,I feel completely burnt out and don't know how much longer I can keep pushing through Software Engineering.,Personal/Mental health,High,Counselling services referral,Personal/Mental health,0.945,True
-MSG0207,A group project teammate has been dismissive and disrespectful toward me throughout Database Systems.,Harassment/Safety,Medium,Escalate to student safety/conduct office,Harassment/Safety,0.861,True
-MSG0107,I've been isolating myself from everyone and I don't see the point in continuing like this.,Personal/Mental health,High,Counselling services referral,Personal/Mental health,0.862,True
-MSG0073,Could you tell me if there are any scholarship or financial aid options available for students like me?,Financial difficulty,Medium,Financial aid office referral,Financial difficulty,0.855,True
-MSG0135,I've been feeling quite disconnected from my classmates and struggling to keep up with Data Structures.,Personal/Mental health,Medium,Counselling services referral,Personal/Mental health,0.848,True
-MSG0162,Can you share the academic calendar for this semester?,Administrative,Low,Route to administrative office,Administrative,0.283,True
-MSG0001,I have fallen so far behind in Natural Language Processing that I don't think I can catch up before the exam.,Academic difficulty,High,Academic advisor follow-up,Academic difficulty,0.956,True
-MSG0225,"Thank you for the extra reading material shared after the Operating Systems lecture, it was really helpful.",No_Concern,No_Concern,No action required,No_Concern,0.535,True
-MSG0078,"Managing both hostel and Computer Networks material costs this month has been tight, are there any aid options?",Financial difficulty,Medium,Financial aid office referral,Financial difficulty,0.931,True
-MSG0027,I did poorly on my last assignment in Operating Systems and I'm not sure how to improve.,Academic difficulty,Medium,Academic advisor follow-up,Academic difficulty,0.96,True
-MSG0201,A few students in Machine Learning have been making uncomfortable comments about me in the group chat.,Harassment/Safety,Medium,Escalate to student safety/conduct office,Harassment/Safety,0.926,True
-MSG0103,Is there a fee breakdown available for Statistics materials and lab charges?,Financial difficulty,Low,Financial aid office referral,Financial difficulty,0.954,True
-MSG0071,I'm at risk of being deregistered from Computer Networks because of overdue fee payments and I need urgent help.,Financial difficulty,High,Financial aid office referral,Financial difficulty,0.909,True
-MSG0174,I wanted to know the process for adding a minor elective alongside Software Engineering.,Administrative,Low,Route to administrative office,Administrative,0.902,True
-MSG0140,Are there any mindfulness or stress-management workshops planned this semester?,Personal/Mental health,Low,Counselling services referral,Personal/Mental health,0.492,True
-MSG0012,I don't understand anything that has been taught in Natural Language Processing this semester and the mid-terms are next week.,Academic difficulty,High,Academic advisor follow-up,Academic difficulty,0.941,True
-MSG0171,I wanted to know the process for adding a minor elective alongside Database Systems.,Administrative,Low,Route to administrative office,Administrative,0.881,True
-MSG0136,I feel anxious before every Linear Algebra exam and it's starting to affect my performance.,Personal/Mental health,Medium,Counselling services referral,Personal/Mental health,0.897,True
-MSG0182,I'm being bullied by classmates in my Software Engineering group and it has gotten worse over the past week.,Harassment/Safety,High,Escalate to student safety/conduct office,Harassment/Safety,0.916,True
-MSG0149,My transcript has an error in my Operating Systems grade and I need it corrected before applications close.,Administrative,Medium,Route to administrative office,Administrative,0.846,True
-MSG0031,I missed a couple of lectures in Machine Learning and I'm finding it hard to catch up on my own.,Academic difficulty,Medium,Academic advisor follow-up,Academic difficulty,0.958,True
-MSG0179,Explicit messages are being circulated about me in a Statistics class group and I need this addressed urgently.,Harassment/Safety,High,Escalate to student safety/conduct office,Harassment/Safety,0.88,True
-MSG0010,I don't understand anything that has been taught in Data Structures this semester and the mid-terms are next week.,Academic difficulty,High,Academic advisor follow-up,Academic difficulty,0.918,True
-MSG0065,I lost my scholarship and I don't know how I'll continue paying for Database Systems materials and tuition.,Financial difficulty,High,Financial aid office referral,Financial difficulty,0.972,True
-MSG0221,Is there a recording available for the Machine Learning session I missed due to a clash?,No_Concern,No_Concern,No action required,No_Concern,0.419,True
+MSG0064,I can't afford the lab equipment required for Data Structures and my deadline to submit is this week.,Financial difficulty,High,Financial aid office referral,Financial difficulty,0.302,True
+MSG0045,I had a small doubt about the grading rubric used for the Data Science project.,Academic difficulty,Low,Academic advisor follow-up,Academic difficulty,0.441,True
+MSG0128,I feel anxious before every Computer Networks exam and it's starting to affect my performance.,Personal/Mental health,Medium,Counselling services referral,Personal/Mental health,0.551,True
+MSG0175,I'm being bullied by classmates in my Operating Systems group and it has gotten worse over the past week.,Harassment/Safety,High,Escalate to student safety/conduct office,Harassment/Safety,0.77,True
+MSG0205,A few students in Statistics have been making uncomfortable comments about me in the group chat.,Harassment/Safety,Medium,Escalate to student safety/conduct office,Harassment/Safety,0.813,True
+MSG0055,My family's financial situation has worsened and I may have to drop out due to unpaid fees.,Financial difficulty,High,Financial aid office referral,Financial difficulty,0.467,True
+MSG0034,I'm having trouble balancing coursework across Database Systems and my other subjects this semester.,Academic difficulty,Medium,Academic advisor follow-up,Academic difficulty,0.38,True
+MSG0013,I have fallen so far behind in Data Science that I don't think I can catch up before the exam.,Academic difficulty,High,Academic advisor follow-up,Academic difficulty,0.5,True
+MSG0075,"Managing both hostel and Linear Algebra material costs this month has been tight, are there any aid options?",Financial difficulty,Medium,Financial aid office referral,Financial difficulty,0.686,True
+MSG0147,I need to request a leave of absence for Computer Networks due to a family function next week.,Administrative,Medium,Route to administrative office,Administrative,0.645,True
+MSG0117,I feel completely burnt out and don't know how much longer I can keep pushing through Software Engineering.,Personal/Mental health,High,Counselling services referral,Personal/Mental health,0.726,True
+MSG0207,A group project teammate has been dismissive and disrespectful toward me throughout Database Systems.,Harassment/Safety,Medium,Escalate to student safety/conduct office,Harassment/Safety,0.708,True
+MSG0107,I've been isolating myself from everyone and I don't see the point in continuing like this.,Personal/Mental health,High,Counselling services referral,Personal/Mental health,0.668,True
+MSG0073,Could you tell me if there are any scholarship or financial aid options available for students like me?,Financial difficulty,Medium,Financial aid office referral,Financial difficulty,0.564,True
+MSG0135,I've been feeling quite disconnected from my classmates and struggling to keep up with Data Structures.,Personal/Mental health,Medium,Counselling services referral,Personal/Mental health,0.591,True
+MSG0162,Can you share the academic calendar for this semester?,Administrative,Low,Route to administrative office,No_Concern,0.313,False
+MSG0001,I have fallen so far behind in Natural Language Processing that I don't think I can catch up before the exam.,Academic difficulty,High,Academic advisor follow-up,Academic difficulty,0.513,True
+MSG0225,"Thank you for the extra reading material shared after the Operating Systems lecture, it was really helpful.",No_Concern,No_Concern,No action required,Academic difficulty,0.47,False
+MSG0078,"Managing both hostel and Computer Networks material costs this month has been tight, are there any aid options?",Financial difficulty,Medium,Financial aid office referral,Financial difficulty,0.666,True
+MSG0027,I did poorly on my last assignment in Operating Systems and I'm not sure how to improve.,Academic difficulty,Medium,Academic advisor follow-up,Academic difficulty,0.674,True
+MSG0201,A few students in Machine Learning have been making uncomfortable comments about me in the group chat.,Harassment/Safety,Medium,Escalate to student safety/conduct office,Harassment/Safety,0.838,True
+MSG0103,Is there a fee breakdown available for Statistics materials and lab charges?,Financial difficulty,Low,Financial aid office referral,Financial difficulty,0.76,True
+MSG0071,I'm at risk of being deregistered from Computer Networks because of overdue fee payments and I need urgent help.,Financial difficulty,High,Financial aid office referral,Financial difficulty,0.55,True
+MSG0174,I wanted to know the process for adding a minor elective alongside Software Engineering.,Administrative,Low,Route to administrative office,Administrative,0.636,True
+MSG0140,Are there any mindfulness or stress-management workshops planned this semester?,Personal/Mental health,Low,Counselling services referral,No_Concern,0.357,False
+MSG0012,I don't understand anything that has been taught in Natural Language Processing this semester and the mid-terms are next week.,Academic difficulty,High,Academic advisor follow-up,Academic difficulty,0.543,True
+MSG0171,I wanted to know the process for adding a minor elective alongside Database Systems.,Administrative,Low,Route to administrative office,Administrative,0.572,True
+MSG0136,I feel anxious before every Linear Algebra exam and it's starting to affect my performance.,Personal/Mental health,Medium,Counselling services referral,Personal/Mental health,0.595,True
+MSG0182,I'm being bullied by classmates in my Software Engineering group and it has gotten worse over the past week.,Harassment/Safety,High,Escalate to student safety/conduct office,Harassment/Safety,0.763,True
+MSG0149,My transcript has an error in my Operating Systems grade and I need it corrected before applications close.,Administrative,Medium,Route to administrative office,Administrative,0.604,True
+MSG0031,I missed a couple of lectures in Machine Learning and I'm finding it hard to catch up on my own.,Academic difficulty,Medium,Academic advisor follow-up,Academic difficulty,0.634,True
+MSG0179,Explicit messages are being circulated about me in a Statistics class group and I need this addressed urgently.,Harassment/Safety,High,Escalate to student safety/conduct office,Harassment/Safety,0.729,True
+MSG0010,I don't understand anything that has been taught in Data Structures this semester and the mid-terms are next week.,Academic difficulty,High,Academic advisor follow-up,Academic difficulty,0.496,True
+MSG0065,I lost my scholarship and I don't know how I'll continue paying for Database Systems materials and tuition.,Financial difficulty,High,Financial aid office referral,Financial difficulty,0.764,True
+MSG0221,Is there a recording available for the Machine Learning session I missed due to a clash?,No_Concern,No_Concern,No action required,No_Concern,0.251,True
+REV0036,"Useful course for internships, the tools we learned are in demand.",No_Concern,No_Concern,No action required,No_Concern,0.551,True
+REV0037,The projects were challenging in a good way.,No_Concern,No_Concern,No action required,No_Concern,0.477,True
+REV0038,Clear explanations and quick replies to emails from the teacher.,No_Concern,No_Concern,No action required,No_Concern,0.575,True
+REV0039,The course could use a few more guest lectures.,No_Concern,No_Concern,No action required,No_Concern,0.671,True
+REV0040,"Enjoyable class, the teacher keeps a good pace.",No_Concern,No_Concern,No action required,No_Concern,0.863,True
+REV0041,Everything was explained well and the exam matched the syllabus.,No_Concern,No_Concern,No action required,No_Concern,0.721,True

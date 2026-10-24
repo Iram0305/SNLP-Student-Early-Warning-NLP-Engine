@@ -1,1 +1,4 @@
 id,text,category,urgency,recommended_action,predicted,confidence,correct
+MSG0225,"Thank you for the extra reading material shared after the Operating Systems lecture, it was really helpful.",No_Concern,No_Concern,No action required,Academic difficulty,0.47,False
+MSG0140,Are there any mindfulness or stress-management workshops planned this semester?,Personal/Mental health,Low,Counselling services referral,No_Concern,0.357,False
+MSG0162,Can you share the academic calendar for this semester?,Administrative,Low,Route to administrative office,No_Concern,0.313,False
