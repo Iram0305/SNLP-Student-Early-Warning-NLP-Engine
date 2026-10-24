@@ -1,0 +1,689 @@
+{
+  "from": "Group 5, Student Feedback Intelligence",
+  "model_version": "transformer-absa-0.2.2",
+  "notes": [
+    "Comments are public course and teacher reviews (EduRABSA, CC BY-NC-SA 4.0) with names and emails redacted, plus hand-written examples marked synthetic: true. None comes from an NMIMS student.",
+    "Advisory only: no result may be used to identify or act on an individual."
+  ],
+  "items": [
+    {
+      "id": "FB001",
+      "text": "This class is all about perfecting your lab skills and techniques. The marks are mostly based on the accuracy of your results which makes it tricky to get a good mark. But the professor is amazing and she wants you to do well. She cares about your well-being and success in the class and is always prepared to share tips and tricks and help you get back on track if you need it.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "positive",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "faculty_interaction",
+            "polarity": "positive",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "assessment",
+            "polarity": "negative",
+            "polarity_score": 0.7692
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB002",
+      "text": "Have work for your grade.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "neutral",
+        "aspects": []
+      }
+    },
+    {
+      "id": "FB003",
+      "text": "Took constitutional law with him he really didn't like me because my cellphone rang one day in class and I sat up front and from that day he really couldn't stand me. Everything is power point and you can actually go online and print out the power point everything is straight from his notes.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "neutral",
+        "aspects": [
+          {
+            "aspect": "faculty_interaction",
+            "polarity": "negative",
+            "polarity_score": 0.7692
+          },
+          {
+            "aspect": "resources",
+            "polarity": "positive",
+            "polarity_score": 0.7692
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB004",
+      "text": "alot of research and thinking required for the course",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "neutral",
+        "aspects": []
+      }
+    },
+    {
+      "id": "FB005",
+      "text": "I thought he was very good. Lectures were interesting. He often went 3 hours str8 and rarely gave a break. I thought the work was reasonable. If you study and participate, you can get an A. Good guy overall!",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "positive",
+            "polarity_score": 0.8903
+          },
+          {
+            "aspect": "course_content",
+            "polarity": "positive",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "workload",
+            "polarity": "positive",
+            "polarity_score": 0.7692
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB006",
+      "text": "[INSTRUCTOR] is a great professor. I was computer illiterate before taking this class and have a great knowledge base to go on now. Take as many classes with her as possible!",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "positive",
+            "polarity_score": 0.9952
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB007",
+      "text": "hes soo fun n easy going",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "faculty_interaction",
+            "polarity": "positive",
+            "polarity_score": 0.9952
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB008",
+      "text": "Read the text book, do those multiple choice questions from the study guide then you will be all set.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "positive",
+            "polarity_score": 0.9952
+          },
+          {
+            "aspect": "resources",
+            "polarity": "positive",
+            "polarity_score": 0.8903
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB009",
+      "text": "Really interesting course, had a good balance of in-class and textbook content. Marks were made up of a 40% group mediated speech and essay assignment, 10% group project, two 15% tests and a 20% essay. Not a difficult course.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "positive",
+            "polarity_score": 0.8903
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB010",
+      "text": "This class is a nightmare. The whole class is teaching you this ONE way of contour drawing& if you don't learn it you basically fail. This teacher uses so many weird analogies you have no idea what he is talking about. It is true he is rude to students. I passed, but I will never take another drawing class as UCF.. will make you hate drawing.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "negative",
+            "polarity_score": 0.8903
+          },
+          {
+            "aspect": "faculty_interaction",
+            "polarity": "negative",
+            "polarity_score": 0.9444
+          },
+          {
+            "aspect": "course_content",
+            "polarity": "negative",
+            "polarity_score": 0.8548
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB011",
+      "text": "very hard",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB012",
+      "text": "Very easy course.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "positive",
+            "polarity_score": 0.9952
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB013",
+      "text": "He is a tough grader, the toughest professor I have taken. He lectures over all the material. Took him for psych 9 and I am a psych major. He is clear on what you should have read and will go over the reading if you have questions. What makes him hard and why people dont like him is that he tests your ability to apply the material , not memorize it.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "neutral",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "conflict",
+            "polarity_score": 0.8548
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB014",
+      "text": "Didn't understand a single thing in the first half of the course. Graph theory was much better, but overall an useless course for math major",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "negative",
+            "polarity_score": 0.8903
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB015",
+      "text": "Terrible terrible communication. Not being mean but you cannot understand anything he says!!!!! Which leads to lots of confusion come project time, stupid stupid stupid. Wish I could drop but this class is mandatory.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB016",
+      "text": "There aren't any weekly assignments which ironically is worse than having them. Make sure to do the assigned problems and you'll pretty much breeze through the course. Tests / midterms aren't very bad. Can't say that this is exhilarating material, though.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "neutral",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "positive",
+            "polarity_score": 0.8116
+          },
+          {
+            "aspect": "assessment",
+            "polarity": "negative",
+            "polarity_score": 0.5021
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB017",
+      "text": "Like all math courses in SYDE, experience is mainly dependent on [INSTRUCTOR] is straightforward, lots of overlap with high-school material for many students. There is enough content to make it useful( helps with getting data science internships), but still limited in comparison with other statistics courses in the university.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "neutral",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "conflict",
+            "polarity_score": 0.3636
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB018",
+      "text": "A hard course to actually learn because it is never clear on how to solve problems. the lectures feel bloated with equations that you never use, its like they are there to confuse you.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "course_content",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB019",
+      "text": "Its just an insane amount of memorizing and its very hard to remember all the little details",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "negative",
+            "polarity_score": 0.9952
+          },
+          {
+            "aspect": "workload",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "other",
+            "polarity": "negative",
+            "polarity_score": 0.8903
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB020",
+      "text": "Was one of my highest marks. Lin alg is very useful to cs, learn it well.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "positive",
+            "polarity_score": 0.9444
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB021",
+      "text": "An introductory course to C++, but moves extremely quickly for beginner programmers. Lots of self-learning is to be expected.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "pace",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "workload",
+            "polarity": "negative",
+            "polarity_score": 0.8903
+          },
+          {
+            "aspect": "other",
+            "polarity": "negative",
+            "polarity_score": 0.8548
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB022",
+      "text": "Interesting and easy, once you get the hang of it.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "positive",
+            "polarity_score": 0.9952
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB023",
+      "text": "DO NOT AND I MEAN DO NOT TAKE THIS PROFESSOR. EVEN IF U DESPERATELY NEED IT YOU ARE B ETTER OFF WAITING. HE IS THE WORST AND I MEAN THE WORST TEACHER U CUD POSSIBLY TAKE. HE DOES NOT TEACH NOR ACCURATELY PREPARE U FOR EXAMS. U CANT STUDY ENOUGH FOR THIS CLASS. HOW COULD THE HIGHEST GRADE BE A 76% OUT OF 48 STUDENTS... SOMETHING WRONG WITH DAT PIC",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "negative",
+            "polarity_score": 0.8903
+          },
+          {
+            "aspect": "course_content",
+            "polarity": "negative",
+            "polarity_score": 0.8548
+          },
+          {
+            "aspect": "assessment",
+            "polarity": "negative",
+            "polarity_score": 0.7692
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB024",
+      "text": "Class was unnecessarily difficult, prof was awful, if it isn't mandatory don't take it!",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "course_content",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB025",
+      "text": "Boring. Monotone. Very fluid grading process. Midterm was not easy. Final was a breeze. If you can accept her boring nature, then this class is pretty easy.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "neutral",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "conflict",
+            "polarity_score": 0.5021
+          },
+          {
+            "aspect": "course_content",
+            "polarity": "positive",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "assessment",
+            "polarity": "conflict",
+            "polarity_score": 0.7692
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB026",
+      "text": "Attempt all assigned questions multiple times.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "neutral",
+        "aspects": []
+      }
+    },
+    {
+      "id": "FB027",
+      "text": "Tough course. Labs took forever.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "negative",
+            "polarity_score": 0.9952
+          },
+          {
+            "aspect": "workload",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "other",
+            "polarity": "negative",
+            "polarity_score": 0.8903
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB028",
+      "text": "A very nice guy and a pretty decent teacher. You'll have to listen to him talk for a long time about kind of boring topics, but he likes showing videos and stuff so it's not terrible. A pretty easy grader, too.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "positive",
+            "polarity_score": 0.7692
+          },
+          {
+            "aspect": "faculty_interaction",
+            "polarity": "positive",
+            "polarity_score": 0.8903
+          },
+          {
+            "aspect": "course_content",
+            "polarity": "negative",
+            "polarity_score": 0.5021
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB029",
+      "text": "Good class in all, only thing that was not cool is she sprung a group assignment and oral presentation that was not in the syllabus. But it was pretty easy to get a good grade. Super nice prof!",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "faculty_interaction",
+            "polarity": "positive",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "course_content",
+            "polarity": "positive",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "assessment",
+            "polarity": "negative",
+            "polarity_score": 0.7692
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB030",
+      "text": "Absolutely useless course. I hated it.",
+      "synthetic": false,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": []
+      }
+    },
+    {
+      "id": "FB031",
+      "text": "I have fallen behind and I am thinking of dropping out.",
+      "synthetic": true,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "course_content",
+            "polarity": "negative",
+            "polarity_score": 0.8548
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB032",
+      "text": "I have missed several classes because of difficulties at home and I am worried that I may not be able to complete the course.",
+      "synthetic": true,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": []
+      }
+    },
+    {
+      "id": "FB033",
+      "text": "I had to take a part-time job to pay the fees, so I keep missing the morning lectures.",
+      "synthetic": true,
+      "group5_analysis": {
+        "doc_sentiment": "neutral",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "negative",
+            "polarity_score": 0.7692
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB034",
+      "text": "The deadlines this semester have left me anxious and unable to sleep most nights.",
+      "synthetic": true,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": []
+      }
+    },
+    {
+      "id": "FB035",
+      "text": "A senior in the lab keeps making comments about me that make me uncomfortable.",
+      "synthetic": true,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "negative",
+            "polarity_score": 0.8903
+          },
+          {
+            "aspect": "faculty_interaction",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB036",
+      "text": "My scholarship form has been pending at the office for six weeks and nobody replies.",
+      "synthetic": true,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "negative",
+            "polarity_score": 0.9444
+          },
+          {
+            "aspect": "faculty_interaction",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB037",
+      "text": "The lectures were very informative, but the pace was too fast and the assignments were difficult.",
+      "synthetic": true,
+      "group5_analysis": {
+        "doc_sentiment": "negative",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "positive",
+            "polarity_score": 0.5021
+          },
+          {
+            "aspect": "pace",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          },
+          {
+            "aspect": "assessment",
+            "polarity": "negative",
+            "polarity_score": 0.9804
+          }
+        ]
+      }
+    },
+    {
+      "id": "FB038",
+      "text": "Great course, the professor explains every concept clearly.",
+      "synthetic": true,
+      "group5_analysis": {
+        "doc_sentiment": "positive",
+        "aspects": [
+          {
+            "aspect": "teaching",
+            "polarity": "positive",
+            "polarity_score": 0.9952
+          }
+        ]
+      }
+    }
+  ]
+}
