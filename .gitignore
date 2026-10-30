@@ -7,3 +7,4 @@ venv/
 .DS_Store
 src/models/embeddings/
 src/models/embeddings_v2/
+webapp/server.pid

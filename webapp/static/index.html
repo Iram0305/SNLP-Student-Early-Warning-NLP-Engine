@@ -1,0 +1,264 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Early-Warning Engine</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%236366f1'/><path d='M9 21l5-10 4 7 2-3 3 6' stroke='white' stroke-width='2.4' fill='none' stroke-linecap='round' stroke-linejoin='round'/></svg>">
+  <link rel="stylesheet" href="/static/app.css">
+</head>
+<body>
+  <div class="bg-orbs" aria-hidden="true"><span></span><span></span><span></span></div>
+
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">
+        <svg viewBox="0 0 32 32"><path d="M7 22l5.5-11 4.5 7.5 2.5-3.5 3.5 7" /></svg>
+      </div>
+      <div>
+        <div class="brand-title">Student Early-Warning Engine</div>
+        <div class="brand-sub">Group 6 · SNLP Course Project 2026</div>
+      </div>
+    </div>
+
+    <nav class="tabs" id="tabs" role="tablist">
+      <button class="tab active" data-tab="analyse" role="tab">Analyse</button>
+      <button class="tab" data-tab="batch" role="tab">Batch &amp; Dashboard</button>
+      <button class="tab" data-tab="pipeline" role="tab">Pipeline</button>
+      <button class="tab" data-tab="stack" role="tab">Tech Stack</button>
+      <button class="tab" data-tab="code" role="tab">Code</button>
+      <button class="tab" data-tab="about" role="tab">About</button>
+      <span class="tab-ink" id="tabInk"></span>
+    </nav>
+
+    <div class="top-actions">
+      <div class="status-pill loading" id="statusPill" title="Model status">
+        <span class="dot"></span><span id="statusText">Loading model…</span>
+      </div>
+      <button class="icon-btn" id="themeBtn" title="Toggle light / dark">
+        <svg viewBox="0 0 24 24"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      </button>
+      <button class="btn danger" id="shutdownBtn">
+        <svg viewBox="0 0 24 24"><path d="M12 3v9M6.3 6.3a8 8 0 1 0 11.4 0"/></svg>
+        <span>Shut down</span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============================== ANALYSE ============================== -->
+    <section class="panel active" id="tab-analyse">
+      <div class="hero">
+        <h1>Read a student message. <span class="grad">Flag who needs help first.</span></h1>
+        <p>Predicts the concern type and urgency of a free-text message, with a confidence for each, and suggests which office should follow up.</p>
+      </div>
+
+      <div class="advisory reveal">
+        <svg viewBox="0 0 24 24"><path d="M12 9v4M12 17h.01M10.3 3.9L1.8 18a2 2 0 0 0 1.7 3h17a2 2 0 0 0 1.7-3L13.7 3.9a2 2 0 0 0-3.4 0z"/></svg>
+        <div><strong>Advisory only.</strong> The engine never decides anything about a student. It helps staff choose which messages to read first. A human reviews every result.</div>
+      </div>
+
+      <div class="grid-2">
+        <div class="card input-card reveal">
+          <div class="card-head">
+            <h3>Student message</h3>
+            <span class="muted small" id="charCount">0 characters</span>
+          </div>
+          <div class="chips" id="exampleChips"></div>
+          <textarea id="msgInput" rows="7" placeholder="Paste or type a student message here…"></textarea>
+          <div class="row-end">
+            <button class="btn ghost" id="clearBtn">Clear</button>
+            <button class="btn primary" id="analyseBtn">
+              <span class="btn-label">Analyse message</span>
+              <span class="spinner"></span>
+            </button>
+          </div>
+          <div class="muted small hint">Tip: press <kbd>Ctrl</kbd> + <kbd>Enter</kbd> to analyse.</div>
+        </div>
+
+        <div class="card trace-card reveal">
+          <div class="card-head"><h3>What happens to your message</h3></div>
+          <ol class="trace" id="trace">
+            <li data-step="0"><span class="t-ico">1</span><div><b>Input text</b><small>Raw message as typed</small></div></li>
+            <li data-step="1"><span class="t-ico">2</span><div><b>Sentence embedding</b><small>all-mpnet-base-v2 → 768 numbers</small></div></li>
+            <li data-step="2"><span class="t-ico">3</span><div><b>Category classifier</b><small>6 classes + probability</small></div></li>
+            <li data-step="3"><span class="t-ico">4</span><div><b>Urgency classifier</b><small>4 levels + probability</small></div></li>
+            <li data-step="4"><span class="t-ico">5</span><div><b>Action lookup</b><small>Category → responsible office</small></div></li>
+            <li data-step="5"><span class="t-ico">6</span><div><b>Human review</b><small>Staff decide what to do</small></div></li>
+          </ol>
+        </div>
+      </div>
+
+      <div id="resultArea" class="result-area"></div>
+    </section>
+
+    <!-- ============================== BATCH ============================== -->
+    <section class="panel" id="tab-batch">
+      <div class="hero small-hero">
+        <h1>Batch triage <span class="grad">&amp; concerns dashboard</span></h1>
+        <p>Analyse many messages at once, for example Group 5's course feedback. See which categories are emerging and which items count as support signals.</p>
+      </div>
+
+      <div class="card reveal">
+        <div class="card-head">
+          <h3>Input</h3>
+          <div class="seg" id="formatSeg">
+            <button class="active" data-fmt="auto">Auto-detect</button>
+            <button data-fmt="lines">One per line</button>
+            <button data-fmt="json">JSON</button>
+            <button data-fmt="csv">CSV</button>
+          </div>
+        </div>
+        <textarea id="batchInput" rows="8" placeholder='One message per line, or JSON {"items":[{"id":"A1","text":"..."}]}, or CSV with a "text" column.'></textarea>
+        <div class="row-between">
+          <div class="row">
+            <button class="btn ghost" id="sampleBtn">Load Group 5 sample (38)</button>
+            <label class="btn ghost file-btn">
+              Upload file<input type="file" id="fileInput" accept=".json,.csv,.txt">
+            </label>
+          </div>
+          <button class="btn primary" id="batchBtn">
+            <span class="btn-label">Run batch triage</span>
+            <span class="spinner"></span>
+          </button>
+        </div>
+        <div class="progress" id="batchProgress"><span></span></div>
+      </div>
+
+      <div id="dashboard" class="dashboard hidden">
+        <div class="tiles" id="tiles"></div>
+        <div class="grid-2">
+          <div class="card"><div class="card-head"><h3>Concerns by category</h3></div><div class="bars" id="catBars"></div></div>
+          <div class="card"><div class="card-head"><h3>Urgency mix</h3></div><div class="donut-wrap" id="urgDonut"></div></div>
+        </div>
+        <div class="card">
+          <div class="card-head">
+            <h3>Results</h3>
+            <div class="row">
+              <div class="seg" id="filterSeg">
+                <button class="active" data-filter="all">All</button>
+                <button data-filter="flagged">Support signals</button>
+                <button data-filter="review">Low confidence</button>
+              </div>
+              <button class="btn ghost sm" id="dlCsv">CSV</button>
+              <button class="btn ghost sm" id="dlJson">JSON</button>
+            </div>
+          </div>
+          <div class="muted small">Support signal = category is not No_Concern or Administrative <em>and</em> category confidence ≥ 0.5. Same rule as <code>demo/run_group5.py</code>.</div>
+          <div class="table-wrap"><table class="results" id="resultsTable"></table></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== PIPELINE ============================== -->
+    <section class="panel" id="tab-pipeline">
+      <div class="hero small-hero">
+        <h1>The end-to-end <span class="grad">pipeline</span></h1>
+        <p>From synthetic data to a reusable API, an integration with Group 5, and a human making the final call. Click a stage to see the details.</p>
+      </div>
+
+      <div class="flow" id="flow"></div>
+      <div class="card stage-detail" id="stageDetail"></div>
+
+      <h2 class="section-title">Model evolution</h2>
+      <div class="timeline" id="timeline"></div>
+
+      <h2 class="section-title">Dataset</h2>
+      <div class="grid-3" id="datasetCards"></div>
+
+      <h2 class="section-title">Evaluation</h2>
+      <div class="grid-2">
+        <div class="card"><div class="card-head"><h3>Current Week 4 model: category (test set)</h3></div><div id="repCat"></div></div>
+        <div class="card"><div class="card-head"><h3>Current Week 4 model: urgency (test set)</h3></div><div id="repUrg"></div></div>
+      </div>
+      <div class="card">
+        <div class="card-head"><h3>Baseline vs Week 3 vs Week 4 (macro F1)</h3></div>
+        <div class="muted small">Computed on the original 35-row test set, before the Week 7 review-style examples were added. Category scores are optimistic because the data is synthetic.</div>
+        <div class="grid-2 tight" id="comparison"></div>
+      </div>
+    </section>
+
+    <!-- ============================== STACK ============================== -->
+    <section class="panel" id="tab-stack">
+      <div class="hero small-hero">
+        <h1>Tech <span class="grad">stack</span></h1>
+        <p>Everything runs locally on your PC. Nothing is sent to an external service when you analyse a message.</p>
+      </div>
+      <div class="arch card" id="arch"></div>
+      <div class="stack-grid" id="stackGrid"></div>
+    </section>
+
+    <!-- ============================== CODE ============================== -->
+    <section class="panel" id="tab-code">
+      <div class="code-layout">
+        <aside class="file-tree card" id="fileTree"></aside>
+        <div class="code-main">
+          <div class="card code-head" id="codeHead"></div>
+          <div class="code-body">
+            <div class="code-view card" id="codeView"></div>
+            <div class="notes" id="codeNotes"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============================== ABOUT ============================== -->
+    <section class="panel" id="tab-about">
+      <div class="hero small-hero">
+        <h1>About &amp; <span class="grad">responsible AI</span></h1>
+      </div>
+      <div class="grid-2">
+        <div class="card reveal">
+          <h3>The project</h3>
+          <p>A reusable NLP asset for <em>AI University: Building Reusable NLP Assets</em>. It reads a student's free-text message and predicts one of six concern categories and one of four urgency levels, each with a confidence score, plus a recommended action looked up from the category.</p>
+          <p>Group 6 stretch goal: a dashboard of emerging categories of student concerns. Named integration: Group 5 (student feedback analysis) feeds Group 6.</p>
+          <h3>Team</h3>
+          <ul class="team">
+            <li><span>E037</span>Iram Shaikh <em>(lead)</em></li>
+            <li><span>E039</span>Kesar Joshi</li>
+            <li><span>E040</span>Kavish Purohit</li>
+            <li><span>E041</span>Meet Patel</li>
+            <li><span>E044</span>Riddhi Bhagat</li>
+          </ul>
+        </div>
+        <div class="card reveal">
+          <h3>Responsible-AI commitments</h3>
+          <ul class="checks">
+            <li><b>Human in the loop.</b> Output is advisory; staff make every decision.</li>
+            <li><b>Confidence shown.</b> Anything below 0.5 is marked for manual reading.</li>
+            <li><b>No real student data.</b> Training data is synthetic and template-based; Group 5's real reviews are public (EduRABSA, CC BY-NC-SA 4.0).</li>
+            <li><b>Local processing.</b> Messages are analysed on this machine and not stored.</li>
+            <li><b>Honest limits.</b> Synthetic data makes category scores optimistic; mixed praise-and-complaint text and adjacent urgency levels are the main failure modes.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- shutdown modal + overlay -->
+  <div class="modal-back" id="modal">
+    <div class="modal">
+      <div class="modal-ico">
+        <svg viewBox="0 0 24 24"><path d="M12 3v9M6.3 6.3a8 8 0 1 0 11.4 0"/></svg>
+      </div>
+      <h3>Shut down the server?</h3>
+      <p>This stops the local Python server. The page will stop working until you run <code>start_app.bat</code> again.</p>
+      <div class="row-end">
+        <button class="btn ghost" id="cancelShutdown">Cancel</button>
+        <button class="btn danger" id="confirmShutdown">Shut down</button>
+      </div>
+    </div>
+  </div>
+  <div class="goodbye" id="goodbye">
+    <div class="goodbye-inner">
+      <div class="power-ring"><svg viewBox="0 0 24 24"><path d="M12 3v9M6.3 6.3a8 8 0 1 0 11.4 0"/></svg></div>
+      <h2>Server stopped</h2>
+      <p>You can close this tab. Double-click <code>start_app.bat</code> to start again.</p>
+    </div>
+  </div>
+
+  <div class="toasts" id="toasts"></div>
+  <script src="/static/app.js"></script>
+</body>
+</html>
